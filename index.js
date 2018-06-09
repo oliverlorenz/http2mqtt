@@ -44,7 +44,7 @@ function controller(req, res, next) {
       message = JSON.stringify(message)
   }
   mqttClient.publish(topic, message, () => {
-    console.log(`published: ${topic}`)
+    console.log(new Date(), `published: ${topic}`)
     res.send(req.body);
     next();
   })
