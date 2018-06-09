@@ -34,11 +34,10 @@ You will receive a "null" message in the client because, you don't send a payloa
 
 You can configure the project by using this environment variables
 
-|| Environment Variable || default ||
-|| BROKER_URL| mqtt://test.mosquitto.org |
-|| TOPIC_BASE |  |
-|| HTTP_PORT | 9001 |
-|| MQTT_USERNAME |  |
-|| MQTT_PASSWORD |  |
+* BROKER_URL default: mqtt://test.mosquitto.org
+* TOPIC_BASE
+* HTTP_PORT default: 9001
+* MQTT_USERNAME
+* MQTT_PASSWORD
 
 
